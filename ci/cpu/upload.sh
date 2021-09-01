@@ -28,7 +28,7 @@ fi
 ################################################################################
 
 gpuci_logger "Get conda file output locations"
-export DASKCUDA_FILE=`conda build conda/recipes/dask-cuda --python=$PYTHON --output`
+export DASKCUDA_FILE=`conda build conda/recipes/dask-cuda --python=$PYTHON_VER --output`
 
 ################################################################################
 # UPLOAD - Conda packages
